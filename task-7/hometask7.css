@@ -1,0 +1,81 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+main {
+    max-width: 1120px;
+    width: 70%;
+    margin: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color:gold;
+}
+
+h1 {
+    font-size: 58px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 25px;
+    font-weight: 700;
+}
+li :first-child {
+    color: black;
+}
+
+li :nth-child(2){
+    color: black;
+}
+
+li :nth-child(3){
+    color: black;
+}
+
+li :nth-child(4){
+    color: black;
+}
+
+h5{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+p {
+    color: midnightblue;
+    font-size: 18px;
+}
+
+a {
+    color: black;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    background-color:midnightblue;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color:midnightblue;
+}
