@@ -1,0 +1,76 @@
+p {
+    margin: 0;
+}
+
+.bank{
+    max-width: 1000px;
+    margin-inline: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    width: 315px;
+    height: 200px;
+    min-width: 300px;
+    background-color:purple;
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+
+#card-chip{
+    width: 50px;
+    padding-top: 35px;
+    margin-left: -5px;
+}
+
+#card-number{
+    font-weight: 200;
+    font-size: 25px;
+    margin-top: -5px;
+}
+
+#card-name{
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 15px;
+    font-family: monospace;
+}
+
+#value{
+    font-size: 9px;
+}
+
+#value,
+#date{
+    font-family: 'Tahoma', sans-serif;
+}
+
+#display-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+#card-logo{
+    width: 100px;
+    height: 35px;
+    margin-right:20px;
+    margin-top: -10px;
+    
+}
+
+.card:nth-child(2) {
+    background-color: #009432;
+}
+
+.card:nth-child(3) {
+    background-color: #0652DD;
+}
+
+.card:nth-child(4) {
+    background-color: #161617;
+}
