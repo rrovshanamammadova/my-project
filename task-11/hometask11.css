@@ -1,0 +1,142 @@
+.container{
+    width: 90%;
+    margin: auto;
+    max-width: 1140px;
+}
+
+body{
+    font-family: "Poppins", Arial, sans-serif;
+    background: #f8f8f8;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: #999999;
+}
+
+.information{
+    display: flex;
+    flex-direction: row;
+}
+
+.header{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.subheader{
+    color: #ff9d1c;
+    font-weight: bold;
+}
+
+.tittle{
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.image{
+    width: 200px;
+    height: 200px;
+}
+
+.type-services{ 
+    margin-left: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /*align-items: flex-start;*/
+    flex-wrap: nowrap
+    
+}
+
+.service-c{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    background-color: #343a40;
+}
+
+.service-i{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    background-color: #f98911;;
+} 
+
+.service-a{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    background-color:  #ffffffdd;
+}
+.icon{
+    font-size: 28px;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff33;
+    border-radius: 50%;
+}
+
+.button{
+    display: inline-block;
+    padding: 7px 14px;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: bold;
+    background: #fff;
+    color: #ff9d1c;
+}
+
+h3,
+p{
+    color: white;
+}
+.dark{
+    color: black;
+}
+
+.service-a:hover{
+    background-color: #343a40;
+    transition: all ease-in .2s;
+}
+
+@media screen and (max-width:1040px) {
+    .engineer-head{
+        font-size: 40px;
+    }
+    .staff{
+        font-size: 14px;
+    }
+    .name{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:475px) {
+    .engineer-head{
+        font-size: 30px;
+    }
+    .staff{
+        font-size: 12px;
+    }
+    
+}
+@media screen and (max-width:340px) {
+    .engineer-head{
+        font-size: 20px;
+    }
+    .staff{
+        font-size: 9px;
+    }
+    
+}
+@media screen and (max-width:240px) {
+    .engineer-head{
+        font-size: 17px;
+    }
+    .staff{
+        font-size: 7px;
+    }
+}
