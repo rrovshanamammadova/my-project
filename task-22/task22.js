@@ -34,8 +34,10 @@
 //Task 5
 // let sum=0;
 // let num = +prompt("Eded daxil edin:");
-// for(let i=100; i<1000; i+=15){
-//     sum+=i;   
+// for(let i=100; i<1000; i++){
+//     if(i%num===0){
+//         sum+=i;
+//     }  
 // }
 // console.log(sum);
 
@@ -77,6 +79,28 @@
 // }
 // console.log(index);
 
+// ve ya
+// let text = prompt("Mətni daxil edin:");
+// for(let i=0; i<text.length; i++){
+//     if (text[i] === "."){
+//         console.log(i);
+//         break
+//     }
+// }
+
 
 //Task 10
-
+// let text = prompt("Mətni daxil edin:");
+// let hasNumber=true;
+// for(let i=0; i<text.length; i++){
+//     if(text[i]>="0" && text[i]<="9"){
+//         hasNumber=true;
+//         break;
+//     }
+// }
+// if(hasNumber){
+//     console.log("Metnde reqem var");
+// }
+// else{
+//     console.log("Metnde reqem yoxdur");
+// }
