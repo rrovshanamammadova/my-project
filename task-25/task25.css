@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+
+.img{
+    width: 100%;
+}
+
+.card{
+     border: 2px solid #999999ac;
+    width: 400px;
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #bbbbbc;
+}
+
+.price{
+    color: #D1140A;
+    font-size: 30px;
+}
+
+.btn{
+    border: 2px solid black;
+    background-color: #D1140A;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    padding: 7px 14px;
+}
+
+.author{
+    font-size: 25px;
+}
+
+.btn:hover{
+    background-color: rgb(150, 18, 18);
+    transition: all ease-in .2s;
+}
+
