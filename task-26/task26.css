@@ -1,0 +1,12 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 3px solid midnightblue;
+    padding: 8px;
+    text-align: left;
+    cursor: pointer;
+}
+
