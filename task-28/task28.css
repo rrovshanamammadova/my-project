@@ -1,0 +1,55 @@
+body{
+  margin: 0;
+  min-height: 100vh;
+    background: linear-gradient(155deg, #1f1c2c, #9e8dabf4);
+}
+
+.playlist{
+    min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.player{
+     width: 320px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background: rgba(255, 255, 255, 0.07);
+  border-radius: 15px; 
+}
+
+.info img {
+  width: 100%;
+  max-height: 230px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.341);
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.buttons {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.info{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: opacity 0.3s ease;
+}
+
+#range{
+width: 100%;
+}
+
