@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif ;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #D3B7C7;
+}
+
+.container{
+    height: 600px;
+    width: 1060px;
+    display: flex;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow:0 20px 40px rgba(0,0,0,0.1) ;
+}
+
+.left{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left img {
+  width: 95%;
+  height: 100%;
+  border-radius: 8px;
+  object-fit: cover;  
+  display: block;
+}
+
+.right{
+    flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-box {
+  width: 100%;
+  padding-right: 30px;
+}
+
+.form-box h2 {
+    margin-top: 20px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.sub {
+  font-size: 14px;
+  margin-bottom: 30px;
+  color: gray;
+}
+
+.input-group {
+  margin-bottom: 18px;
+
+}
+
+.input-group label {
+  font-size: 14px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.input-group input:focus {
+  border-color: #C47AAC;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+.options a {
+  text-decoration: none;
+  color: #C47AAC;
+}
+
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: #7F275B;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #7f275a6a;
+}
+
+.divider {
+  text-align: center;
+  margin: 25px 0;
+  font-size: 13px;
+  color: gray;
+}
+
+.socials {
+  display: flex;
+  gap: 10px;
+}
+
+.socials button {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.socials button:hover{
+  background: #7f275a6a;
+}
+.google {
+  background: #7F275B;
+  color: white;
+}
+
+.facebook {
+  background: #7F275B;
+  color: white;
+}
+
+.register {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.register a {
+  color: #7F275B;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.register-cont{
+  width: 420px;
+  min-height: 550px;
+  padding: 30px;
+  box-shadow:0 30px 40px rgba(0, 0, 0, 0.195);
+  border-radius: 10px;
+  background: white;
+}
+
+.login{
+  color: #7F275B;
+  text-decoration: none;
+  font-weight: 600;
+}
