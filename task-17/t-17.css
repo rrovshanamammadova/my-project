@@ -103,6 +103,7 @@ header{
 .navigation>li>a:hover{
     color: #E5BF4A;
     transition: .4s;
+    text-decoration: underline;
 }
 .navigation{
     display: flex;

@@ -10,6 +10,7 @@
 </head>
 <body>
     <div class="container">
+        
         <div class="left">
             <div class="left-content">
                 <img src="./loginImage.png" alt="">
@@ -18,17 +19,17 @@
 
         <div class="right-side">
             <div class="form-box">
-                <h2>Welcome Back!</h2>
-                <p class="sub">Login to your account</p>
+                <h2 data-key="loginTitle">Welcome Back!</h2>
+                <p class="sub" data-key="loginSub">Login to your account</p>
                 <form>
                     <div class="input-group">
-                        <label>Email</label>
-                        <input type="email" placeholder="example@gmail.com" id="input">
+                        <label data-key="email">Email</label>
+                        <input data-key="password" type="email" placeholder="example@gmail.com" id="input">
                     </div>
 
                     <div class="input-group">
-                        <label> Password</label>
-                        <input type="password" placeholder="*********" id="input">
+                        <label data-key="password"> Password</label>
+                        <input  type="password" placeholder="*********" id="input">
                     </div>
 
                     <div class="options">
@@ -37,7 +38,7 @@
                         </label>
                     </div>
 
-                    <button class="btn">Login</button>
+                    <button class="btn" data-key="loginBtn">Login</button>
                 </form>
 
                 <div class="divider">Or continue with</div>
@@ -50,6 +51,16 @@
             </div>
         </div>
     </div>
+
+
+    <div class="language-dropdown">
+            <select id="languageSelect">
+                <option value="az">AZ</option>
+                <option value="en">ENG</option>
+                <option value="ru">RU</option>
+            </select>
+    </div>
+
 
     <script src="./app.js"></script>
 </body>

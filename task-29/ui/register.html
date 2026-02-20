@@ -10,31 +10,39 @@
 </head>
 <body>
      <div class="register-cont">
+        <div class="language-dropdown">
+            <select id="languageSelect">
+                <option value="az">AZ</option>
+                <option value="en">ENG</option>
+                <option value="ru">RU</option>
+            </select>
+        </div>
+
         <form id="registerForm" class="form">
-            <h2>Create Account</h2>
-            <p class="sub">Register your new account</p>
+            <h2 data-key="registerTitle">Create Account</h2>
+            <p class="sub" data-key="account">Register your new account</p>
 
         <div class="input-group">
-            <label>Full Name</label>
+            <label data-key="fullname">Full Name</label>
             <input type="text" required id="input">
         </div>
 
         <div class="input-group">
-            <label>Email</label>
+            <label data-key="email">Email</label>
             <input type="email" required id="input">
         </div>
 
         <div class="input-group">
-            <label>Password</label>
+            <label data-key="password">Password</label>
             <input type="password" required id="input">
         </div>
 
         <div class="input-group">
-            <label>Confirm Password</label>
+            <label data-key="password">Confirm Password</label>
             <input type="password" required id="input">
         </div>
 
-        <button class="btn">Register</button>
+        <button class="btn" data-key="registerBtn">Register</button>
 
         <p class="switch">Already have an account? <a href="./index.html" class="login">Login</a></p>
         </form>

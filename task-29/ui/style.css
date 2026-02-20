@@ -171,3 +171,27 @@ body{
   text-decoration: none;
   font-weight: 600;
 }
+
+
+.language-dropdown {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.language-dropdown select {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  outline: none;
+  transition: 0.3s;
+}
+
+.language-dropdown select:hover {
+  border-color: #7F275B;
+}
+
+.language-dropdown select:focus {
+  border-color: #7F275B;
+}

@@ -57,3 +57,63 @@ const registerForm = document.getElementById('registerForm');
         });
     }
 })
+
+const translations = {
+  az: {
+    loginTitle: "Xoş Gəlmisiniz",
+    loginSub: "Hesabınıza daxil olun",
+    email: "Email",
+    password: "Şifrə",
+    loginBtn: "Daxil ol",
+    registerTitle: "Hesab Yarat",
+    fullname: "Ad Soyad",
+    registerBtn: "Qeydiyyat",
+    account:"Yeni hesabınızı qeydiyyatdan keçirin"
+  },
+  en: {
+    loginTitle: "Welcome Back",
+    loginSub: "Login to your account",
+    email: "Email",
+    password: "Password",
+    loginBtn: "Login",
+    registerTitle: "Create Account",
+    fullname: "Full Name",
+    registerBtn: "Register",
+    account:"Register your new account"
+    
+  },
+  ru: {
+    loginTitle: "Добро пожаловать",
+    loginSub: "Войдите в аккаунт",
+    email: "Эл. почта",
+    password: "Пароль",
+    loginBtn: "Войти",
+    registerTitle: "Создать аккаунт",
+    fullname: "Имя Фамилия",
+    registerBtn: "Регистрация",
+    account:"Зарегистрируйте свой новый аккаунт"
+  }
+};
+
+const select = document.getElementById("languageSelect");
+
+select.addEventListener("change", function() {
+  const selectedLang = this.value;
+  localStorage.setItem("language", selectedLang);
+  applyLanguage(selectedLang);
+});
+
+
+function applyLanguage(lang) {
+  document.querySelectorAll("[data-key]").forEach(el => {
+    const key = el.getAttribute("data-key");
+    el.textContent = translations[lang][key];
+  });
+}
+
+
+window.addEventListener("DOMContentLoaded", () => {
+  const savedLang = localStorage.getItem("language") || "az";
+  select.value = savedLang;
+  applyLanguage(savedLang);
+});
