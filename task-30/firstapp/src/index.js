@@ -1,24 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Navbar from './components/navbar.jsx';
-import Header from './components/header.jsx';
-import Project from './components/project.jsx';
-import About from './components/about.jsx';
-import Contact from './components/contact.jsx';
-import Location from './components/location.jsx';
-import Footer from './components/footer.jsx';
+import Bookimage from './components/bookimage';
+import Bookname from './components/bookname';
+import Bookauthor from './components/bookauthor';
+import Bookprice from './components/bookprice';
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
-
 root.render(
-  <>
-  <Navbar/>
-  <Header/>
-  <Project/>
-  <About/>
-  <Contact/>
-  <Location/>
-  <Footer/>
+ <>
+  <Bookimage/>
+  <Bookname/>
+  <Bookauthor/>
+  <Bookprice/>
   </>
-)
-
+);
 
